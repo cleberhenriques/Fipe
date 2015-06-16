@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32F2C164D332868241570AC6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C205BB47DAF1786D2DDDB204 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BA59BDB11B2FA9390074B422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59BDB01B2FA9390074B422 /* AppDelegate.swift */; };
 		BA59BDB31B2FA9390074B422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59BDB21B2FA9390074B422 /* ViewController.swift */; };
 		BA59BDB61B2FA9390074B422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA59BDB41B2FA9390074B422 /* Main.storyboard */; };
@@ -36,6 +37,9 @@
 		BA59BDC01B2FA93A0074B422 /* FipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA59BDC51B2FA93A0074B422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA59BDC61B2FA93A0074B422 /* FipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeTests.swift; sourceTree = "<group>"; };
+		C205BB47DAF1786D2DDDB204 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0ABDD8A746B2925340D7612 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E8835AA65B6F1B4F9D2EFF88 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F2C164D332868241570AC6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A23123FDD03C632A0028AF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0ABDD8A746B2925340D7612 /* Pods.debug.xcconfig */,
+				E8835AA65B6F1B4F9D2EFF88 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B1A22B3767505AE9889743E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C205BB47DAF1786D2DDDB204 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA59BDA21B2FA9390074B422 = {
 			isa = PBXGroup;
 			children = (
 				BA59BDAD1B2FA9390074B422 /* Fipe */,
 				BA59BDC31B2FA93A0074B422 /* FipeTests */,
 				BA59BDAC1B2FA9390074B422 /* Products */,
+				3A23123FDD03C632A0028AF2 /* Pods */,
+				3B1A22B3767505AE9889743E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA59BDCA1B2FA93A0074B422 /* Build configuration list for PBXNativeTarget "Fipe" */;
 			buildPhases = (
+				39A0FA07C659FBFFB7D651D4 /* Check Pods Manifest.lock */,
 				BA59BDA71B2FA9390074B422 /* Sources */,
 				BA59BDA81B2FA9390074B422 /* Frameworks */,
 				BA59BDA91B2FA9390074B422 /* Resources */,
+				86EE83B1722C6CE3658C3D8F /* Embed Pods Frameworks */,
+				58ADE6228B57D186F7929EDC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +233,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39A0FA07C659FBFFB7D651D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58ADE6228B57D186F7929EDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EE83B1722C6CE3658C3D8F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA59BDA71B2FA9390074B422 /* Sources */ = {
@@ -338,6 +413,7 @@
 		};
 		BA59BDCB1B2FA93A0074B422 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0ABDD8A746B2925340D7612 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fipe/Info.plist;
@@ -349,6 +425,7 @@
 		};
 		BA59BDCC1B2FA93A0074B422 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8835AA65B6F1B4F9D2EFF88 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fipe/Info.plist;
@@ -411,6 +488,7 @@
 				BA59BDCC1B2FA93A0074B422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA59BDCD1B2FA93A0074B422 /* Build configuration list for PBXNativeTarget "FipeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +497,7 @@
 				BA59BDCF1B2FA93A0074B422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
