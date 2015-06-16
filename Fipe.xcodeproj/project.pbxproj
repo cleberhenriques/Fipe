@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA59BDB11B2FA9390074B422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59BDB01B2FA9390074B422 /* AppDelegate.swift */; };
+		BA59BDB31B2FA9390074B422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59BDB21B2FA9390074B422 /* ViewController.swift */; };
+		BA59BDB61B2FA9390074B422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA59BDB41B2FA9390074B422 /* Main.storyboard */; };
+		BA59BDB81B2FA9390074B422 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA59BDB71B2FA9390074B422 /* Images.xcassets */; };
+		BA59BDBB1B2FA93A0074B422 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA59BDB91B2FA93A0074B422 /* LaunchScreen.xib */; };
+		BA59BDC71B2FA93A0074B422 /* FipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA59BDC61B2FA93A0074B422 /* FipeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA59BDC11B2FA93A0074B422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA59BDA31B2FA9390074B422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA59BDAA1B2FA9390074B422;
+			remoteInfo = Fipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA59BDAB1B2FA9390074B422 /* Fipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA59BDAF1B2FA9390074B422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA59BDB01B2FA9390074B422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA59BDB21B2FA9390074B422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA59BDB51B2FA9390074B422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA59BDB71B2FA9390074B422 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA59BDBA1B2FA93A0074B422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA59BDC01B2FA93A0074B422 /* FipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA59BDC51B2FA93A0074B422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA59BDC61B2FA93A0074B422 /* FipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA59BDA81B2FA9390074B422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA59BDBD1B2FA93A0074B422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA59BDA21B2FA9390074B422 = {
+			isa = PBXGroup;
+			children = (
+				BA59BDAD1B2FA9390074B422 /* Fipe */,
+				BA59BDC31B2FA93A0074B422 /* FipeTests */,
+				BA59BDAC1B2FA9390074B422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA59BDAC1B2FA9390074B422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA59BDAB1B2FA9390074B422 /* Fipe.app */,
+				BA59BDC01B2FA93A0074B422 /* FipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA59BDAD1B2FA9390074B422 /* Fipe */ = {
+			isa = PBXGroup;
+			children = (
+				BA59BDB01B2FA9390074B422 /* AppDelegate.swift */,
+				BA59BDB21B2FA9390074B422 /* ViewController.swift */,
+				BA59BDB41B2FA9390074B422 /* Main.storyboard */,
+				BA59BDB71B2FA9390074B422 /* Images.xcassets */,
+				BA59BDB91B2FA93A0074B422 /* LaunchScreen.xib */,
+				BA59BDAE1B2FA9390074B422 /* Supporting Files */,
+			);
+			path = Fipe;
+			sourceTree = "<group>";
+		};
+		BA59BDAE1B2FA9390074B422 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA59BDAF1B2FA9390074B422 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA59BDC31B2FA93A0074B422 /* FipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA59BDC61B2FA93A0074B422 /* FipeTests.swift */,
+				BA59BDC41B2FA93A0074B422 /* Supporting Files */,
+			);
+			path = FipeTests;
+			sourceTree = "<group>";
+		};
+		BA59BDC41B2FA93A0074B422 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA59BDC51B2FA93A0074B422 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA59BDAA1B2FA9390074B422 /* Fipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA59BDCA1B2FA93A0074B422 /* Build configuration list for PBXNativeTarget "Fipe" */;
+			buildPhases = (
+				BA59BDA71B2FA9390074B422 /* Sources */,
+				BA59BDA81B2FA9390074B422 /* Frameworks */,
+				BA59BDA91B2FA9390074B422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fipe;
+			productName = Fipe;
+			productReference = BA59BDAB1B2FA9390074B422 /* Fipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA59BDBF1B2FA93A0074B422 /* FipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA59BDCD1B2FA93A0074B422 /* Build configuration list for PBXNativeTarget "FipeTests" */;
+			buildPhases = (
+				BA59BDBC1B2FA93A0074B422 /* Sources */,
+				BA59BDBD1B2FA93A0074B422 /* Frameworks */,
+				BA59BDBE1B2FA93A0074B422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA59BDC21B2FA93A0074B422 /* PBXTargetDependency */,
+			);
+			name = FipeTests;
+			productName = FipeTests;
+			productReference = BA59BDC01B2FA93A0074B422 /* FipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA59BDA31B2FA9390074B422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Cleber Henriques";
+				TargetAttributes = {
+					BA59BDAA1B2FA9390074B422 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BA59BDBF1B2FA93A0074B422 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BA59BDAA1B2FA9390074B422;
+					};
+				};
+			};
+			buildConfigurationList = BA59BDA61B2FA9390074B422 /* Build configuration list for PBXProject "Fipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA59BDA21B2FA9390074B422;
+			productRefGroup = BA59BDAC1B2FA9390074B422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA59BDAA1B2FA9390074B422 /* Fipe */,
+				BA59BDBF1B2FA93A0074B422 /* FipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA59BDA91B2FA9390074B422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA59BDB61B2FA9390074B422 /* Main.storyboard in Resources */,
+				BA59BDBB1B2FA93A0074B422 /* LaunchScreen.xib in Resources */,
+				BA59BDB81B2FA9390074B422 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA59BDBE1B2FA93A0074B422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA59BDA71B2FA9390074B422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA59BDB31B2FA9390074B422 /* ViewController.swift in Sources */,
+				BA59BDB11B2FA9390074B422 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA59BDBC1B2FA93A0074B422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA59BDC71B2FA93A0074B422 /* FipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA59BDC21B2FA93A0074B422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA59BDAA1B2FA9390074B422 /* Fipe */;
+			targetProxy = BA59BDC11B2FA93A0074B422 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA59BDB41B2FA9390074B422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA59BDB51B2FA9390074B422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA59BDB91B2FA93A0074B422 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA59BDBA1B2FA93A0074B422 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA59BDC81B2FA93A0074B422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA59BDC91B2FA93A0074B422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA59BDCB1B2FA93A0074B422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA59BDCC1B2FA93A0074B422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA59BDCE1B2FA93A0074B422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fipe.app/Fipe";
+			};
+			name = Debug;
+		};
+		BA59BDCF1B2FA93A0074B422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fipe.app/Fipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA59BDA61B2FA9390074B422 /* Build configuration list for PBXProject "Fipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA59BDC81B2FA93A0074B422 /* Debug */,
+				BA59BDC91B2FA93A0074B422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA59BDCA1B2FA93A0074B422 /* Build configuration list for PBXNativeTarget "Fipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA59BDCB1B2FA93A0074B422 /* Debug */,
+				BA59BDCC1B2FA93A0074B422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA59BDCD1B2FA93A0074B422 /* Build configuration list for PBXNativeTarget "FipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA59BDCE1B2FA93A0074B422 /* Debug */,
+				BA59BDCF1B2FA93A0074B422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA59BDA31B2FA9390074B422 /* Project object */;
+}
